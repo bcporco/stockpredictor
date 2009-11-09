@@ -1,6 +1,7 @@
 =Goals=
  # Collect closing data for one of the major investing indexes (S&P500, NASDAQ, or DOW) from the past 5 years.
  # Collect stock analysts picks from the same time period on a set of stocks or market sectors
+ ## This may need to change. Not only is it hard to get this data (for free in minable amounts), but it's accuracy may make trying to use it to predict stock direction very difficult.
  # Generate statistics on the profitability of each analyst
  # Report findings
  # Use findings to identify market opportunity
