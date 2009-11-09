@@ -11,11 +11,9 @@ class Stock:
 	"""An instance of a stock for a particular company and index
 	"""
 	def __init__(self, symbol, index, stock_type):
-		"""Constructor for Stock.
-		"""
-		if !(isinstance(symbol,str) && 
-		(isinstance(index,str) || isnull(index)) &&
-		(isinstance(stock_type,str) || isnull(stock_type)) :
+		if (!isinstance(symbol,str) || 
+		(!isinstance(index,str) || isnull(index)) ||
+		(!isinstance(stock_type,str) || isnull(stock_type)) :
 			raise InstanceError, ( "Both symbol and index must be of string type" )
 		else:
 			self.symbol = symbol
