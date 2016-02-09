@@ -1,0 +1,1 @@
+The goal of this project is to collect a set of stock market data points on a set of stocks, and combining that data with other resources (analysts calls, business cycles, etc) predict whether the stock is under priced, overpriced, or priced correctly.
